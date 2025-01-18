@@ -1,0 +1,29 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "An example repository to go along with the three part article series for frontend engineering explained",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:lint": "prettier .",
+    "prettier:format": "prettier --write .",
+    "lint:css": "stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schalkneethling/profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/profile/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/profile#readme",
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "stylelint": "^16.13.2",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}

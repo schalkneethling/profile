@@ -1,0 +1,73 @@
+.heading-display,
+.heading-xxl,
+.heading-xl,
+.heading-large,
+.heading-medium,
+.heading-small-medium,
+caption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "iowan old style", "apple garamond", baskerville,
+    "times new roman", "droid serif", times, "source serif pro", serif;
+  line-height: 1.2;
+}
+
+.text-medium,
+.text-small-medium,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+}
+
+.heading-display {
+  font-size: 4.768rem;
+}
+
+h1,
+.heading-xxl {
+  font-size: 3.815rem;
+}
+
+h2,
+.heading-xl {
+  font-size: 3.052rem;
+}
+
+h3,
+.heading-large {
+  font-size: 2.441rem;
+}
+
+h4,
+.heading-medium {
+  font-size: 1.953rem;
+}
+
+h5,
+.heading-small-medium {
+  font-size: 1.563rem;
+}
+
+body {
+  font-size: 100%;
+}
+
+code {
+  font-family: menlo, consolas, monaco, "liberation mono", "lucida console",
+    monospace;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.text-small {
+  font-size: 0.8rem;
+}
+
+.text-tiny {
+  font-size: 0.64rem;
+}
