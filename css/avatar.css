@@ -1,5 +1,5 @@
 .avatar {
-    block-size: 150px;
-    border-radius: 50%;
-    inline-size: 150px;
+  block-size: 9.375rem;
+  border-radius: var(--border-radius-circular);
+  inline-size: 9.375rem;
 }

@@ -1,7 +1,7 @@
 .about-me,
 .about-me-header {
   display: grid;
-  gap: 1rem;
+  gap: var(--size-16);
 }
 
 .about-me-header h1,

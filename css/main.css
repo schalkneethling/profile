@@ -1,7 +1,8 @@
+@import url("./variables.css");
 @import url("./typography.css");
 @import url("./avatar.css");
 @import url("./about.css");
 
 .page-wrapper {
-  padding: 2rem 1.5rem;
+  padding: var(--size-32) var(--size-24);
 }
