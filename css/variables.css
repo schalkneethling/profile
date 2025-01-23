@@ -1,0 +1,40 @@
+:root {
+  --border-radius-circular: 50%;
+
+  --size-16: 1rem;
+  --size-24: 1.5rem;
+  --size-32: 2rem;
+
+  --typography-font-size-display: 2.027rem;
+  --typography-font-size-xxl: 1.802rem;
+  --typography-font-size-xl: 1.602rem;
+  --typography-font-size-large: 1.424rem;
+  --typography-font-size-medium: 1.266rem;
+  --typography-font-size-small-medium: 1.125rem;
+  --typography-font-size-default: 1rem;
+  --typography-font-size-small: 0.8rem;
+  --typography-font-size-tiny: 0.64rem;
+
+  --typography-line-height-heading: 1.2;
+  --typography-line-height-code: 1.4;
+  --typography-line-height-prose: 1.5;
+
+  --typography-font-family-heading: "iowan old style", "apple garamond",
+    baskerville, "times new roman", "droid serif", times, "source serif pro",
+    serif;
+  --typography-font-family-prose: -apple-system, blinkmacsystemfont, "Segoe UI",
+    roboto, oxygen, ubuntu, cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --typography-font-family-code: menlo, consolas, monaco, "liberation mono",
+    "lucida console", monospace;
+}
+
+@media screen and (width >= 48rem) {
+  :root {
+    --typography-font-size-display: 4.768rem;
+    --typography-font-size-xxl: 3.815rem;
+    --typography-font-size-xl: 3.052rem;
+    --typography-font-size-large: 2.441rem;
+    --typography-font-size-medium: 1.953rem;
+    --typography-font-size-small-medium: 1.563rem;
+  }
+}
