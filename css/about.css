@@ -1,0 +1,10 @@
+.about-me,
+.about-me-header {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-me-header h1,
+.about-me-header p {
+  margin: 0;
+}
