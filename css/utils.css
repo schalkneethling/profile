@@ -1,0 +1,16 @@
+/* reset default list styling */
+.reset-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* https://www.tpgi.com/the-anatomy-of-visually-hidden/ */
+.visually-hidden:not(:focus, :active) {
+  block-size: 1px;
+  clip-path: inset(50%);
+  inline-size: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}

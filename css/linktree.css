@@ -1,0 +1,17 @@
+.linktree {
+  display: grid;
+  gap: var(--size-32);
+  text-align: center;
+}
+
+.linktree .heading-section {
+  margin-block-end: 0;
+}
+
+.linktree-link-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-24);
+  justify-content: center;
+}
