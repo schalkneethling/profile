@@ -1,6 +1,12 @@
 :root {
+  --color-brand-primary: #271165;
+
+  --border-primary: 0.065rem solid var(--color-brand-primary);
   --border-radius-circular: 50%;
 
+  --icon-size: var(--size-24);
+
+  --size-8: 0.5rem;
   --size-16: 1rem;
   --size-24: 1.5rem;
   --size-32: 2rem;

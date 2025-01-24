@@ -68,3 +68,12 @@ h5,
 .text-tiny {
   font-size: var(--typography-font-size-tiny);
 }
+
+.heading-section {
+  border-block-end: var(--border-primary);
+  padding-block-end: var(--size-8);
+}
+
+.all-caps {
+  text-transform: uppercase;
+}

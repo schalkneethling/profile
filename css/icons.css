@@ -1,0 +1,30 @@
+.icon::before {
+  block-size: var(--icon-size);
+  content: "";
+  display: block;
+  inline-size: var(--icon-size);
+}
+
+.icon-devto::before {
+  background-image: url("../assets/icons/devto.svg");
+}
+
+.icon-github::before {
+  background-image: url("../assets/icons/github.svg");
+}
+
+.icon-linkedin::before {
+  background-image: url("../assets/icons/linkedin.svg");
+}
+
+.icon-mastodon::before {
+  background-image: url("../assets/icons/mastodon.svg");
+}
+
+.icon-twitch::before {
+  background-image: url("../assets/icons/twitch.svg");
+}
+
+.icon-youtube::before {
+  background-image: url("../assets/icons/youtube.svg");
+}
