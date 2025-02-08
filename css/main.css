@@ -3,9 +3,23 @@
 @import url("./avatar.css");
 @import url("./about.css");
 @import url("./linktree.css");
-/* @import url("./icons.css"); */
+@import url("./icons.css");
 @import url("./utils.css");
 
+body {
+  background-color: var(--color-neutral-inverted);
+  color: var(--color-brand-primary);
+}
+
 .page-wrapper {
+  margin: 0 auto;
+  max-width: 45rem;
+  max-width: 90rch;
   padding: var(--size-32) var(--size-24);
+}
+
+@media screen and (width > 47.9375rem) {
+  main {
+    text-align: center;
+  }
 }

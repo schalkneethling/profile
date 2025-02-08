@@ -1,5 +1,6 @@
 :root {
   --color-brand-primary: #271165;
+  --color-neutral-inverted: #fff;
 
   --border-primary: 0.065rem solid var(--color-brand-primary);
   --border-radius-circular: 50%;

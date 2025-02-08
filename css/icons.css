@@ -1,4 +1,5 @@
 .icon::before {
+  background-color: var(--color-brand-primary);
   block-size: var(--icon-size);
   content: "";
   display: block;
@@ -6,25 +7,25 @@
 }
 
 .icon-devto::before {
-  background-image: url("../assets/icons/devto.svg");
+  mask-image: url("../assets/icons/devto.svg");
 }
 
 .icon-github::before {
-  background-image: url("../assets/icons/github.svg");
+  mask-image: url("../assets/icons/github.svg");
 }
 
 .icon-linkedin::before {
-  background-image: url("../assets/icons/linkedin.svg");
+  mask-image: url("../assets/icons/linkedin.svg");
 }
 
 .icon-mastodon::before {
-  background-image: url("../assets/icons/mastodon.svg");
+  mask-image: url("../assets/icons/mastodon.svg");
 }
 
 .icon-twitch::before {
-  background-image: url("../assets/icons/twitch.svg");
+  mask-image: url("../assets/icons/twitch.svg");
 }
 
 .icon-youtube::before {
-  background-image: url("../assets/icons/youtube.svg");
+  mask-image: url("../assets/icons/youtube.svg");
 }
