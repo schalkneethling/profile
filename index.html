@@ -39,6 +39,7 @@
             <h1>Schalk Neethling</h1>
             <p class="heading-large">Open Web Engineer</p>
           </hgroup>
+          <button type="button" id="show-dialog" class="button button-primary">Get in touch</button>
         </header>
         <p class="about-me-bio">
           I fell in love with the web 15 years ago and ever since then I have
@@ -50,6 +51,45 @@
         </p>
       </article>
     </main>
+
+    <dialog aria-labelledby="dialog-contact-form-title" id="dialog-contact-form">
+      <form method="dialog">
+        <button class="button button-close" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
+            role="img">
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+          </svg>
+          <span class="visually-hidden">Close dialog</span>
+        </button>
+      </form>
+
+      <h2 class="dialog-heading" id="dialog-contact-form-title">Get in touch</h2>
+
+      <form name="contact" method="post" action="/">
+        <fieldset>
+          <legend>Enter your details (all fields are required)</legend>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea rows="5" id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="button button-primary">Send message</button>
+        </fieldset>
+      </form>
+    </dialog>
+
     <aside class="linktree">
       <h2 class="heading-section heading-medium all-caps">On The Interwebs</h2>
       <ul class="reset-list linktree-link-list">
@@ -90,6 +130,7 @@
       </ul>
     </aside>
   </div>
+  <script src="/js/dialog.js"></script>
 </body>
 
 </html>

@@ -1,12 +1,28 @@
 :root {
   --color-brand-primary: #271165;
+  --color-brand-highlight: var(--color-orange-50);
   --color-neutral-inverted: #fff;
 
-  --border-primary: 0.065rem solid var(--color-brand-primary);
+  --color-neutral-10: #f4f4f4;
+  --color-neutral-80: #343434;
+
+  --color-orange-30: #fbc072;
+  --color-orange-50: #ffb657;
+  --color-orange-90: #281d0e;
+
+  --dialog-backdrop: rgba(0 0 0 / 50%);
+  --dialog-box-shadow: 0 0 1rem rgba(0 0 0 / 30%);
+
+  --border-transparent: var(--size-1) solid transparent;
+  --border-primary: var(--size-1) solid var(--color-brand-primary);
+  --border-radius-button: var(--size-8);
   --border-radius-circular: 50%;
 
   --icon-size: var(--size-24);
 
+  --size-1: 0.0625rem;
+  --size-2: 0.125rem;
+  --size-4: 0.25rem;
   --size-8: 0.5rem;
   --size-16: 1rem;
   --size-24: 1.5rem;
