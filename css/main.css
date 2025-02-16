@@ -6,12 +6,23 @@
 @import url("./forms.css");
 @import url("./about.css");
 @import url("./linktree.css");
-@import url("./icons.css");
 @import url("./utils.css");
 
 body {
   background-color: var(--color-neutral-inverted);
   color: var(--color-brand-primary);
+}
+
+a:link,
+a:visited {
+  color: var(--color-link-color);
+  text-decoration: none;
+}
+
+a:hover svg,
+a:focus svg {
+  scale: 1.2;
+  transition: scale 0.2s ease-in-out;
 }
 
 .page-wrapper {
