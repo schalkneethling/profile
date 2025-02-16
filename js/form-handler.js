@@ -11,7 +11,7 @@ form.addEventListener("submit", async (event) => {
 
   try {
     const formData = new FormData(form);
-    const reponse = await fetch(form.getAttribute("action"), {
+    const response = await fetch(form.getAttribute("action"), {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
