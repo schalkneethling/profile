@@ -1,6 +1,13 @@
 :root {
   --color-brand-primary: #271165;
   --color-brand-highlight: var(--color-orange-50);
+
+  --color-success-light: var(--color-green-10);
+  --color-success-dark: var(--color-green-90);
+
+  --color-critical-light: var(--color-red-10);
+  --color-critical-dark: var(--color-red-90);
+
   --color-neutral-inverted: #fff;
 
   --color-neutral-10: #f4f4f4;
@@ -10,11 +17,20 @@
   --color-orange-50: #ffb657;
   --color-orange-90: #281d0e;
 
+  --color-green-90: #054e3b;
+  --color-green-10: #d1fae5;
+
+  --color-red-90: #450a0a;
+  --color-red-10: #fecaca;
+
   --dialog-backdrop: rgba(0 0 0 / 50%);
   --dialog-box-shadow: 0 0 1rem rgba(0 0 0 / 30%);
 
   --border-transparent: var(--size-1) solid transparent;
   --border-primary: var(--size-1) solid var(--color-brand-primary);
+  --border-success: var(--size-1) solid var(--color-success-dark);
+  --border-critical: var(--size-1) solid var(--color-critical-dark);
+
   --border-radius-button: var(--size-8);
   --border-radius-circular: 50%;
 

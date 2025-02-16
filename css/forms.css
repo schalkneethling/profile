@@ -12,3 +12,21 @@ textarea {
   padding-block: var(--size-4);
   padding-inline: var(--size-8);
 }
+
+.form-critical,
+.form-success {
+  padding-block: var(--size-4);
+  padding-inline: var(--size-8);
+}
+
+.form-critical {
+  background-color: var(--color-critical-light);
+  border: var(--border-critical);
+  color: var(--color-critical-dark);
+}
+
+.form-success {
+  background-color: var(--color-success-light);
+  border: var(--border-success);
+  color: var(--color-success-dark);
+}
