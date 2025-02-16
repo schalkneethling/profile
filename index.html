@@ -66,7 +66,10 @@
 
       <h2 class="dialog-heading" id="dialog-contact-form-title">Get in touch</h2>
 
-      <form name="contact" method="post" action="/">
+      <p class="form-success" hidden>Your information has been successfully submitted. Thank you.</p>
+      <p class="form-critical" hidden>Oh no! Something went wrong. Please try again.</p>
+
+      <form name="contact" method="post" action="/" data-netlify="true">
         <fieldset>
           <legend>Enter your details (all fields are required)</legend>
 
@@ -131,6 +134,7 @@
     </aside>
   </div>
   <script src="/js/dialog.js"></script>
+  <script src="/js/form-handler.js"></script>
 </body>
 
 </html>
