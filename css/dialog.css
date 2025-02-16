@@ -1,0 +1,30 @@
+dialog .button {
+  margin-block-start: var(--size-16);
+}
+
+[method="dialog"] {
+  display: flex;
+  justify-content: end;
+}
+
+.dialog-heading {
+  margin-block-end: 0;
+}
+
+@media screen and (width < 48rem) {
+  dialog {
+    block-size: 100vh;
+    inline-size: 100vw;
+  }
+}
+
+@media screen and (width > 47.9375rem) {
+  dialog {
+    box-shadow: var(--dialog-box-shadow);
+    inline-size: 30rem;
+  }
+
+  dialog::backdrop {
+    background: rgba(0 0 0 / 50%);
+  }
+}

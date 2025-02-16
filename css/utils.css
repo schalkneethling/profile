@@ -1,3 +1,16 @@
+/**
+ * A utility class used on a wrapper element such as a `div` to group two form elements
+ * commonly a label and an input.
+ * - Sets the display to grid.
+ * - Sets the a 0.75rem gap between the elements.
+ * - Sets the margin block end to 0.75rem.
+ */
+.form-group {
+  display: grid;
+  gap: var(--size-4);
+  margin-block-end: var(--size-8);
+}
+
 /* reset default list styling */
 .reset-list {
   list-style-type: none;

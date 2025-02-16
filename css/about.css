@@ -8,3 +8,9 @@
 .about-me-header p {
   margin: 0;
 }
+
+@media screen and (width > 47.9375rem) {
+  .about-me-header {
+    place-items: center;
+  }
+}

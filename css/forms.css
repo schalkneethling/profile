@@ -1,0 +1,14 @@
+fieldset {
+  border: 0;
+  padding-inline: 0;
+}
+
+legend {
+  margin-block-end: var(--size-8);
+}
+
+input,
+textarea {
+  padding-block: var(--size-4);
+  padding-inline: var(--size-8);
+}
