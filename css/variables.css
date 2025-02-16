@@ -1,4 +1,6 @@
 :root {
+  --color-link-color: var(--color-brand-primary);
+
   --color-brand-primary: #271165;
   --color-brand-highlight: var(--color-orange-50);
 
